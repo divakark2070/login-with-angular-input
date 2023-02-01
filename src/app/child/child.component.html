@@ -1,0 +1,19 @@
+<div class="bg-primary p-2 mt-3">
+  <h4>Please Fillup Details :</h4>
+<div class="col-lg-10 mt-1">
+  <label><h6>Name :</h6></label>
+<input type="text" class="form-control" [(ngModel)]="message" placeholder="Name">
+</div>
+<div class="col-lg-10 mt-1">
+  <label><h6>Address :</h6></label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" [(ngModel)]="address" placeholder="Address"></textarea>
+</div>
+ <div class="col-lg-10 mt-1">
+  <label><h6>Enrollment No :</h6></label>
+  <input type="text" class="form-control" placeholder="Enrollment no" [(ngModel)]="no">
+ </div>
+  <br>
+ <div>
+  <button class="btn btn-warning" (click)="sendData()">Submit</button>
+ </div>
+</div>
